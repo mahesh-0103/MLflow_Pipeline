@@ -1,0 +1,8 @@
+mlflow==2.6.0
+prefect==2.13.0
+lightgbm==4.1.0
+fastapi==0.110.0
+uvicorn==0.29.0
+python-dotenv==1.0.1
+pydantic==1.10.12
+great_expectations==1.2.0

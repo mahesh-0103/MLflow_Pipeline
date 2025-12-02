@@ -1,0 +1,24 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*~
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Data files generated during runtime or large raw data
+data/raw/
+data/processed/
+*.csv
+*.pkl
+
+# MLOps artifacts (CRITICAL: do not upload model weights)
+mlruns/
+.mlflow/
+
+# Streamlit config
+.streamlit/

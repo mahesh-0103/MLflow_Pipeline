@@ -1,0 +1,11 @@
+streamlit
+mlflow
+prefect
+scikit-learn
+lightgbm
+catboost
+matplotlib
+pandas
+scipy
+joblib
+openpyxl
