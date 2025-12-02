@@ -22,3 +22,17 @@ mlruns/
 
 # Streamlit config
 .streamlit/
+
+# MLOps artifacts
+mlruns/
+reports/
+data/
+.mlflow/
+
+# Python environments
+venv/
+.venv/
+__pycache__/
+
+# System/Cache files
+.DS_Store
