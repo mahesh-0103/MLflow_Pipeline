@@ -1,0 +1,15 @@
+# .vercelignore
+
+# MLOps Artifacts and Large Directories
+mlruns/
+reports/
+data/
+
+# Python Environments
+venv/
+.venv/
+__pycache__/
+
+# Large temporary/cache files
+*.pkl
+*.csv
