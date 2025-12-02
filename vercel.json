@@ -1,27 +1,27 @@
 {
-    "builds": [
-        {
-            "src": "streamlit_app/main.py",
-            "use": "@vercel/python"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "streamlit_app/main.py"
-        }
-    ],
-    "env": {
-        "STREAMLIT_SERVER_PORT": "8501"
-    },
-    
-    // --- CRITICAL FIX: EXCLUDE LARGE ARTIFACTS ---
-    "excludeFiles": [
-        "mlruns/**",
-        "venv/**",
-        "reports/**",
-        "data/**",
-        "*.pkl",
-        "*.csv"
-    ]
+  "version": 2,
+  "builds": [
+    {
+      "src": "streamlit_app/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "streamlit_app/main.py"
+    }
+  ],
+  
+  "env": {
+    "STREAMLIT_SERVER_PORT": "8501",
+    "PYTHON_VERSION": "3.10" 
+  },
+  
+  "excludeFiles": [
+    "mlruns/**",
+    "venv/**",
+    "reports/**",
+    "data/**"
+  ]
 }
