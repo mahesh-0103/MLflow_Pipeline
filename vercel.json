@@ -13,5 +13,15 @@
     ],
     "env": {
         "STREAMLIT_SERVER_PORT": "8501"
-    }
+    },
+    
+    // --- CRITICAL FIX: EXCLUDE LARGE ARTIFACTS ---
+    "excludeFiles": [
+        "mlruns/**",
+        "venv/**",
+        "reports/**",
+        "data/**",
+        "*.pkl",
+        "*.csv"
+    ]
 }
