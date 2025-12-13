@@ -40,8 +40,8 @@ The application is designed for stability and efficiency on cloud hosting platfo
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/YourUsername/YourRepoName.git
-    cd YourRepoName
+    git clone https://github.com/mahesh-0103.git
+    cd Data_Pipeline_Tracker
     ```
 
 2. **Create and Activate Environment:**
